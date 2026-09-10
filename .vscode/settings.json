@@ -60,13 +60,13 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "FeedTheAnimals_2026_StarterCode.slnx",
+    "dotnet.defaultSolution": "Feed_The_Animals-NatanC.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
