@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="TopElements" picking-mode="Ignore" style="flex-grow: 1; align-items: flex-start;">
+        <ui:VisualElement name="HUDPanel" style="width: 420px; height: 151px; margin-left: 16px; margin-top: 16px; padding-left: 30px; padding-top: 31px; padding-right: 30px; padding-bottom: 26px; flex-shrink: 0; background-image: url(&quot;../UI_Images/01_hud_background.png&quot;);">
+            <ui:VisualElement name="ScoreRow" style="flex-direction: row; align-items: center; height: 36px; flex-shrink: 0;">
+                <ui:Image name="CoinIcon" source="../UI_Images/02_gold_coin.png" picking-mode="Ignore" style="width: 28px; height: 28px; margin-right: 12px; flex-shrink: 0;" />
+                <ui:Label text="Score: 0" name="ScoreLabel" style="font-size: 20px; color: rgb(255, 236, 180); -unity-font-style: bold; margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="AnimalsRow" style="flex-direction: row; align-items: center; height: 40px; margin-top: 4px; flex-shrink: 0;">
+                <ui:Image name="AnimalIcon" source="../UI_Images/03_animal_deer.png" picking-mode="Ignore" style="width: 32px; height: 32px; margin-left: -2px; margin-right: 10px; flex-shrink: 0;" />
+                <ui:Label text="Animals Remaining: 0" name="AnimalsRemainingLabel" enable-rich-text="true" style="font-size: 20px; color: rgb(255, 246, 222); margin-left: 0;" />
+            </ui:VisualElement>
+            <ui:Button name="SettingsButton" tooltip="Settings" style="position: absolute; right: 29px; top: 34px; width: 28px; height: 28px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-color: rgba(0, 0, 0, 0);">
+                <ui:Image name="SettingsIcon" source="../UI_Images/04_settings_gear.png" picking-mode="Ignore" style="width: 28px; height: 28px; flex-shrink: 0;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
